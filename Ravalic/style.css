@@ -55,17 +55,30 @@
 {	
 	background-attachment:fixed;
 		background-color: #645862;
-		background-image:  url("images/bg.png");
+		background-image:  url("images/bg.jpg");
 		background-position: top center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: auto;
+		color: white;
+		cursor: default;
+		padding: 13% 0 13%;
+		text-align: center;
+		
+		float: left;
+
+}
+
+.backg2{
+	background-attachment:fixed;
+		background-color: #645862;
+		background-image:  url("/images/akshita.jpg");
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: auto;
 		color: white;
 		cursor: default;
 		padding: 180px 0 120px;
-		text-align: center;
-		width: 100%;
 		float: left;
-
 }
 @-moz-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 @-webkit-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
@@ -547,4 +560,26 @@ input[placeholder], [placeholder], *[placeholder] {
     margin-top: 15px;
     width: 80% !important;
 }
+}
+
+#home{
+  height: 100%;
+  width: 100%;
+  padding-top: 6%;
+}
+.outer {
+    
+    display: -webkit-box;
+    -webkit-box-align: center;
+     
+    display: -moz-box;
+    -moz-box-align: center;
+
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+
+    display: box;
+    box-align: center;
+        -webkit-align-items: center;
+  align-items: center;
 }
